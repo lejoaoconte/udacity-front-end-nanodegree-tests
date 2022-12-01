@@ -1,0 +1,16 @@
+@import "system.css";
+@import "nav.css";
+@import "news.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: #eeeeee;
+}
+
+hr {
+  width: 100%;
+  margin: 20px 0;
+}

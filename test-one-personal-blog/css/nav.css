@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  gap: 10px;
+}
+
+.navbar > ul > li {
+  display: inline;
+}
+
+.navbar > ul > li:not(:last-child) {
+  border-right: 2px solid #14166d;
+  padding-right: 10px;
+}
+
+.navbar-link {
+  font-size: 1.5em;
+  color: #14166d;
+  text-decoration: none;
+
+  transition: 1s filter;
+}
+
+.navbar-link:hover {
+  filter: brightness(0.6);
+}

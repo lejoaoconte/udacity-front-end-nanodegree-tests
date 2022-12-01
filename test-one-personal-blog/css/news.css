@@ -1,0 +1,49 @@
+.news-section h3 {
+  width: 100%;
+
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+
+  text-align: center;
+  position: absolute;
+
+  padding: 10px 0;
+  bottom: -10px;
+
+  transition: 2s all;
+}
+
+.news-top-picture {
+  width: 100%;
+  height: 450px;
+  position: relative;
+
+  background: url("../imgs/news1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.news-section:hover {
+  filter: brightness(0.6);
+}
+
+.news-section:hover:after {
+  content: "Read More";
+  position: absolute;
+
+  color: #fff;
+
+  width: fit-content;
+
+  font-size: 3em;
+
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, 0);
+}
+
+@media (max-width: 600px) {
+  .news-top-picture {
+    height: 300px;
+  }
+}
