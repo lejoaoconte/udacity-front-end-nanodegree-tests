@@ -1,13 +1,34 @@
 # Landing Page Project
 
+<img src="https://github.com/lejoaoconte/test-two-landing-page/blob/main/images/img.png?raw=true" alt="Demonstration" width="550px">
+
 ## Table of Contents
 
 * [Instructions](#instructions)
+* [Languages used](#languages-used)
+* [What I learned](#what-i-learned)
+
+## Languages used
+
+* Javascript
+* HTML
+* CSS
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+This is Udacity front-end courses project two which involved to create a simple landing page to promote and understand more about Javascript application.
 
-To get started, open `js/app.js` and start building out the app's functionality
+## What I learned
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+* Functiions
+  * setAttribute
+  * scrollTo
+  * getElementsByTagName
+  * createElement
+  * matchMedia
+* Concepts
+  * InnerHTML
+  * append
+  * style by javascript
+
+And so on.
