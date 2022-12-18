@@ -1,7 +1,13 @@
-import { checkForName } from './js/nameChecker'
-import { handleSubmit } from './js/formHandler'
+import { formURLChecker } from "./js/checkerURLForm";
+import { handleSubmit } from "./js/formHandler";
 
-console.log(checkForName);
+import "./styles/resets.scss";
+import "./styles/base.scss";
+import "./styles/footer.scss";
+import "./styles/form.scss";
+import "./styles/header.scss";
 
-alert("I EXIST")
-console.log("CHANGE!!");
+import "./assets/favico.ico";
+import "./assets/logo.svg";
+
+export { formURLChecker, handleSubmit };

@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: center;
+  padding: 10px 40px;
+}
+
+.title-area {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 120px;
+  }
+
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+}
